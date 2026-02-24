@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 17184930}
   - component: {fileID: 17184929}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,8 +322,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 190, y: 190}
-  m_Spacing: {x: 50, y: 50}
+  m_CellSize: {x: 200, y: 200}
+  m_Spacing: {x: 60, y: 60}
   m_Constraint: 1
   m_ConstraintCount: 3
 --- !u!222 &58621986
@@ -384,14 +384,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.032346014, g: 0.12312651, b: 0.2905661, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 965fa36a1c691fa4eacf240c8ee2ea0a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 355502758}
   - component: {fileID: 355502757}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 374290413}
   - component: {fileID: 374290412}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 572946332}
   - component: {fileID: 572946331}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 629904260}
   - component: {fileID: 629904259}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 689996893}
   - component: {fileID: 689996892}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1345,7 +1345,7 @@ GameObject:
   - component: {fileID: 901455431}
   - component: {fileID: 901455430}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 953443922}
   - component: {fileID: 953443921}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1753,7 +1753,7 @@ GameObject:
   - component: {fileID: 1084604593}
   - component: {fileID: 1084604592}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1874,7 @@ GameObject:
   - component: {fileID: 1271236401}
   - component: {fileID: 1271236400}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1994,7 +1994,7 @@ GameObject:
   - component: {fileID: 1295641014}
   - component: {fileID: 1295641013}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2338,7 +2338,7 @@ GameObject:
   - component: {fileID: 1447299885}
   - component: {fileID: 1447299884}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2596,7 +2596,7 @@ GameObject:
   - component: {fileID: 1818102581}
   - component: {fileID: 1818102580}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2717,7 +2717,7 @@ GameObject:
   - component: {fileID: 1846492718}
   - component: {fileID: 1846492717}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2837,7 +2837,7 @@ GameObject:
   - component: {fileID: 1907838727}
   - component: {fileID: 1907838726}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3108,7 +3108,7 @@ GameObject:
   - component: {fileID: 1915454431}
   - component: {fileID: 1915454430}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Cell btn.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3334,7 +3334,7 @@ GameObject:
   - component: {fileID: 2075630604}
   - component: {fileID: 2075630603}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3471,7 +3471,7 @@ GameObject:
   - component: {fileID: 2079019612}
   - component: {fileID: 2079019611}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cell txt.,
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
