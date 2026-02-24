@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
@@ -24,6 +23,10 @@ public class TTTGameManager : MonoBehaviour
 
     private bool gameOver = false;
 
+    // 🎨 Turn Colors
+    private Color32 xTurnColor = new Color32(167, 123, 243, 255); // #A77BF3
+    private Color32 oTurnColor = new Color32(255, 128, 192, 255); // #FF80C0
+
     void Start()
     {
         buttonImages = new Image[buttons.Length];
@@ -42,8 +45,7 @@ public class TTTGameManager : MonoBehaviour
             buttons[i].onClick.AddListener(() => OnPlayerClick(index));
         }
 
-        logText.text = "X Turn";
-
+        UpdateTurnUI("X Turn");
     }
 
     void OnPlayerClick(int index)
@@ -105,15 +107,15 @@ public class TTTGameManager : MonoBehaviour
 
         if (CheckWinner())
         {
-            logText.text = player + " Wins!";
+            UpdateTurnUI(player + " Wins!");
             gameOver = true;
             return;
         }
 
         if (player == Player.X)
-            logText.text = "O Turn";
+            UpdateTurnUI("O Turn");
         else
-            logText.text = "X Turn";
+            UpdateTurnUI("X Turn");
     }
 
     void ClearCell(int index)
@@ -148,6 +150,21 @@ public class TTTGameManager : MonoBehaviour
         return false;
     }
 
+    void UpdateTurnUI(string message)
+    {
+        logText.text = message;
+
+        if (message == "X Turn")
+            logText.color = xTurnColor;
+        else if (message == "O Turn")
+            logText.color = oTurnColor;
+        else if (message == "X Wins!")
+            logText.color = xTurnColor;
+        else if (message == "O Wins!")
+            logText.color = oTurnColor;
+        else
+            logText.color = Color.white;
+    }
 
     public void ResetGame()
     {
@@ -164,7 +181,7 @@ public class TTTGameManager : MonoBehaviour
             buttons[i].interactable = true;
         }
 
-        logText.text = "X Turn";
+        UpdateTurnUI("X Turn");
     }
 
     public void Back()
