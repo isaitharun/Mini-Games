@@ -49,6 +49,7 @@ public class Balloon : MonoBehaviour
 
         if (data.points > 0)
         {
+            tapped = true;
             TTLSceneManager.Instance.AddScore(data.points);
         }
         else

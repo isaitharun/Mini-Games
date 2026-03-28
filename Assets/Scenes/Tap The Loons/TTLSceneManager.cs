@@ -1,4 +1,7 @@
 using UnityEngine;
+using TMPro;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class TTLSceneManager : MonoBehaviour
 {
@@ -6,6 +9,9 @@ public class TTLSceneManager : MonoBehaviour
 
     public GameObject[] balloons;
     public Transform canvas;
+
+    public TMP_Text scoreTxt;
+    public List<Image> lifes;
 
     public int score = 0;
     public int lives = 5;
@@ -53,11 +59,16 @@ public class TTLSceneManager : MonoBehaviour
     public void AddScore(int points)
     {
         score += points;
+        scoreTxt.text = score.ToString();
     }
 
     public void LoseLife()
     {
         lives--;
+
+        lifes[lives].color = Color.red; // The coloring seqence is correct because we reverses at reference in inspetor.
+
+        
 
         if (lives <= 0)
         {
